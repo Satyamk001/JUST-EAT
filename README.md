@@ -3,7 +3,7 @@
 A full-stack food ordering platform built with React and Spring Boot, allowing customers to browse restaurants, place orders, and restaurant owners to manage their menus and orders.
 
 ## 🚀 Features
-
+ 
 ### Customer Features
 - 🔐 User authentication (Register/Login)
 - 🔑 Password reset via email

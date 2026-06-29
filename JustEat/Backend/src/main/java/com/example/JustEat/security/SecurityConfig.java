@@ -32,7 +32,8 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
             "http://localhost:5173",  // Vite dev server
             "http://localhost",       // Docker frontend (port 80)
-            "http://localhost:80"     // Docker frontend explicit
+            "http://localhost:80",     // Docker frontend explicit
+            "http://localhost:8085"     // Docker frontend explicit
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT","PATCH", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
